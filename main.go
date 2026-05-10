@@ -1,8 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
-	fmt.Println("Hello Golang.")
+	server := &http.Server{
+		Addr: ":8080", 
+		Handler: http.HandlerFunc(basicHandler),
+	}
+	fmt.Print("server running....")
+	err := server.ListenAndServe()
+	if err != nil{
+		fmt.Println("failed to listen to server", err)
+	}
+}
+
+func basicHandler(w http.ResponseWriter, r *http.Request){
 
 }
