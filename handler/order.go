@@ -21,8 +21,9 @@ func (o *Order) GetById(w http.ResponseWriter, r *http.Request){
 
 func (o *Order) UpdateById(w http.ResponseWriter, r *http.Request){
 	fmt.Println("Update an order by ID")
+
 }
 
 func (o *Order) DeleteById(w http.ResponseWriter, r *http.Request){
-	fmt.Println("Update an order by ID")
+	fmt.Println("Delete an order by ID")
 }
