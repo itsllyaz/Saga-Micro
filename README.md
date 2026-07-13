@@ -75,7 +75,7 @@ Saga-Micro/
 │
 ├── docker-compose.yml        # spins up all 4 services + 3 Postgres instances
 ├── Makefile                  # top-level build/run helpers (Windows-oriented)
-├── main.go / application/    # ⚠️ legacy scaffold, not part of the microservices (see below)
+├── main.go / application/    #  legacy scaffold, not part of the microservices (see below)
 └── .github/workflows/        # CI (test.yml) and CD (deploy.yml, pushes to ECR)
 ```
 
