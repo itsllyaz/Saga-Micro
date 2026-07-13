@@ -1,9 +1,9 @@
 package auth
-
+//   github.com/itsllyaz/Saga-Micro
 import (
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/auth/pb"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/config"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/config"
 	"google.golang.org/grpc"
 )
 

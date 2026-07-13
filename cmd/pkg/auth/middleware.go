@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/auth/pb"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"

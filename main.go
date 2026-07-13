@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/itsllyaz/go-microservices/application"
+	"github.com/itsllyaz/saga-micro/application"
 )
 
 func main() {

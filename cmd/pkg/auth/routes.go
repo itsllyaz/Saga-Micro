@@ -2,8 +2,8 @@ package auth
 
 import (
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/auth/routes"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/config"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/routes"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/config"
 	"github.com/gin-gonic/gin"
 )
 

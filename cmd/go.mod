@@ -1,4 +1,4 @@
-module github.com/amalmadhu06/go-grpc-microservices/api-gateway
+module github.com/itsllyaz/Saga-Micro.git/api-gateway
 
 go 1.19
 
