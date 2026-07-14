@@ -2,8 +2,8 @@ package order
 
 import (
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/config"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/order/pb"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb/api-gateway/pkg/config"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb/api-gateway/pkg/order/pb"
 	"google.golang.org/grpc"
 )
 

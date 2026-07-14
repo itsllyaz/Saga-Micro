@@ -2,9 +2,9 @@ package order
 
 import (
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/auth"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/config"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/order/routes"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb/api-gateway/pkg/auth"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb/api-gateway/pkg/config"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/auth/pb/api-gateway/pkg/order/routes"
 	"github.com/gin-gonic/gin"
 )
 
