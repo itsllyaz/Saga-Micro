@@ -3,7 +3,7 @@ package routes
 import (
 	"context"
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/product/pb"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/product/pb"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

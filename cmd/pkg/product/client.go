@@ -2,8 +2,8 @@ package product
 
 import (
 	"fmt"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/config"
-	"github.com/amalmadhu06/go-grpc-microservices/api-gateway/pkg/product/pb"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/config"
+	"github.com/itsllyaz/Saga-Micro/api-gateway/pkg/product/pb"
 
 	"google.golang.org/grpc"
 )
