@@ -1,4 +1,4 @@
-module github.com/itsllyaz/Saga-Micro.git/api-gateway
+module github.com/itsllyaz/Saga-Micro
 
 go 1.19
 
